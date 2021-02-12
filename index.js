@@ -142,22 +142,117 @@ return "No";
 *String manipulation
 *It controls the string.
 //Example
-/*
-*With operators
-*
-//Example
+var sen = 'Fornite died';
+var  sen2 = sen.split('2 years ago);
+console.log(sen2);
 
 /*
-*with string method
-*
+*With operators(+)
+*Adds statements
 //Example
-
+"It is Wensday and", + "It is 2:00 "
+/*
+*with string methods
+*Split
+*Splits a string object
+//Example
+var sen = 'Fornite died';
+var  sen2 = sen.split('2 years ago);
+console.log(sen2);
 /*
 *Control flow
-*
+*It shows yor statement/sentence
 //Example
+var favAnime = "Hunter x Hunter";
+
+if( favAnime === "Huntet x Hunter" ) {
+  console.log("Is the best")
+}
 
 /*
 *if
 *Using the keyword if to check for a specific condition.
 //Example
+var favAnime = "Hunter x Hunter";
+
+if( favAnime === "Huntet x Hunter" ) {
+  console.log("Is the best")
+}
+
+/*
+*Else If
+*Using the keyword else if to check for a specific condition.
+//Example
+else if (ieat === "pizza") {
+console.log("i love pizza")
+}
+else {}
+
+/*
+*Else
+*Using the keyword else to check for a specific condition.
+//Example
+else(favHobby === "Skateboarding") {
+  console.log("I skate when I see my cousin")
+}
+
+/*
+*loops
+*repeats
+//Example 
+for (i = 0; i < 9; i++) {
+  console.log("Is mayonnaise an instrument?");
+}
+
+/*
+*While
+*repeats if statement is true
+//Example
+var myArray = [];
+var a = 21;
+while(a > 0) {
+    myArray.push(i);
+  i--;
+}
+
+/*
+*for
+*It works if the statement is true
+//Example
+for (i = 0; i < 9; i++) {
+  console.log("Is mayonnaise an instrument?");
+}
+
+*Be able to loop any number of times, forward counting up to some limit, backward counting down to 0
+
+var myArray = [];
+var a = 5;
+while(a < 0) {
+    myArray.push(a);
+  a++;
+}
+var myArray = [];
+var i = 10;
+while(i > 0) {
+myArray.push(i);
+  i--
+}
+
+/*
+*Functions
+*They accept inputs and return new data.
+//Example
+function greet() {
+  return "Good afternoon"
+}
+greet()
+*The two phases to using functions: First we must ___? Next we can execute (or two other words for executing a function?) a function by? parameters and return statement
+*What’s the difference between a function’s parameters and arguments PASSED to a function?
+*Parameters are place holders for arguments that are later passed or given at call time. 
+*Arguments are values given at call time.
+What’s the syntax for a NAMED function? 
+*the object
+How do we assign a function to a variable?
+*function object()
+Functions can OPTIONALLY take inputs, and OPTIONALLY return a single value. How do we specify inputs, and how do we specify outputs?
+*Inputs are what types are being passed and outputs are whats returning.
